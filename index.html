@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Smart Burger · 15 anos fazendo o melhor burger de SP</title>
+<meta name="description" content="Smart Burger, hamburgueria e milk shakes em Osasco e Carapicuíba. Making good burger since 2011. Delivery em Osasco, Carapicuíba, Alphaville e São Francisco.">
+<meta name="theme-color" content="#0d0c0b">
+<meta property="og:title" content="Smart Burger · Making good burger since 2011">
+<meta property="og:description" content="15 anos fazendo o melhor burger de SP. Osasco e Carapicuíba.">
+<meta property="og:image" content="img/avatar.jpg">
+<link rel="icon" href="img/avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero.jpg" media="(min-width: 761px)">
+<link rel="preload" as="image" href="img/hero-m.jpg" media="(max-width: 760px)">
+<link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===== INTRO: o neon do salão acendendo ===== -->
+<div class="intro" aria-hidden="true">
+  <p class="intro-neon"><span>Making</span> <span>good</span> <span>burger</span> <span>since</span> <span>2011</span></p>
+  <img src="img/logo.png" alt="" class="intro-logo" width="1057" height="844">
+</div>
+
+<!-- ===== HEADER ===== -->
+<header class="hdr">
+  <a href="#top" class="hdr-logo" aria-label="Smart Burger, início"><img src="img/logo.png" alt="Smart Burger" width="1057" height="844"></a>
+  <nav class="hdr-nav" aria-label="Menu">
+    <a href="#parede">A parede</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#bastidores">Bastidores</a>
+    <a href="#unidades">Unidades</a>
+  </nav>
+  <button type="button" class="btn btn-sm" data-order>Pedir agora</button>
+  <button class="hdr-burger" type="button" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
+</header>
+
+<div class="drawer" aria-hidden="true">
+  <a href="#parede">A parede</a>
+  <a href="#cardapio">Cardápio</a>
+  <a href="#bastidores">Bastidores</a>
+  <a href="#unidades">Unidades</a>
+  <button type="button" class="btn" data-order>Pedir agora</button>
+  <p class="drawer-foot">Av. Sto. Antônio, 1.388 · Osasco<br>R. Padre Arnaldo, 95 · Carapicuíba</p>
+</div>
+
+<main id="top">
+
+<!-- ===== HERO ===== -->
+<section class="hero" data-hd="dark">
+  <picture class="hero-bg">
+    <source media="(max-width: 760px)" srcset="img/hero-m.jpg">
+    <img src="img/hero.jpg" alt="Burger da Smart na tábua, com o grafite do salão ao fundo" width="2400" height="1500">
+  </picture>
+  <div class="hero-shade"></div>
+  <canvas class="spray" aria-hidden="true"></canvas>
+
+  <div class="hero-in">
+    <p class="mono hero-kicker"><b class="dot"></b> Osasco · Carapicuíba · desde 2011</p>
+    <h1 class="hero-title">
+      <span class="ht-line"><span>15 anos</span></span>
+      <span class="ht-line"><span>fazendo o melhor</span></span>
+      <span class="ht-line ht-stroke"><span>burger de SP</span></span>
+    </h1>
+    <p class="hero-tag tag">a melhor e mais descolada de Oz e região!</p>
+    <div class="hero-cta">
+      <button type="button" class="btn btn-fire" data-order>Pedir delivery</button>
+      <a href="#cardapio" class="btn btn-ghost">Ver cardápio</a>
+    </div>
+  </div>
+
+  <p class="hero-hint mono" aria-hidden="true"><span class="hint-fine">passa o mouse e picha a parede</span><span class="hint-touch">arrasta o dedo e picha a parede</span></p>
+  <a href="#parede" class="hero-scroll mono" aria-label="Rolar pra baixo">rola ↓</a>
+</section>
+
+<!-- ===== FITAS ===== -->
+<div class="tapes" aria-hidden="true">
+  <div class="tape tape-a"><div class="tape-track">
+    <span>Fritas acompanha free no almoço ✦ quinta a domingo ✦ consumindo no salão ✦ </span>
+    <span>Fritas acompanha free no almoço ✦ quinta a domingo ✦ consumindo no salão ✦ </span>
+  </div></div>
+  <div class="tape tape-b"><div class="tape-track">
+    <span>Smart burger ✦ hamburgueria & milk shakes ✦ Osasco ✦ Carapicuíba ✦ Alphaville ✦ São Francisco ✦ </span>
+    <span>Smart burger ✦ hamburgueria & milk shakes ✦ Osasco ✦ Carapicuíba ✦ Alphaville ✦ São Francisco ✦ </span>
+  </div></div>
+</div>
+
+<!-- ===== A PAREDE (horizontal) ===== -->
+<section class="wall" id="parede" data-hd="dark">
+  <div class="wall-pin">
+    <div class="wall-head">
+      <p class="mono kicker">№01 · a parede</p>
+      <h2 class="h-xl">Qual dessas<br>é a sua <em class="hl">escolha?</em></h2>
+      <p class="lead">Tudo saindo da chapa com o grafite do salão de fundo. Escolhe a sua e cola.</p>
+      <p class="wall-hint mono">rola pro lado →</p>
+    </div>
+    <div class="wall-track">
+      <figure class="poster p1"><img src="img/food/pansexy.jpg" alt="Pansexy na tábua" loading="lazy" width="900" height="1200"><figcaption class="tag">pra muitos, o melhor burger do mundo</figcaption></figure>
+      <figure class="poster p2"><img src="img/food/chicken.jpg" alt="Chicken Smart, sanduíche de frango empanado" loading="lazy" width="900" height="1200"><figcaption class="tag">pra essa sexta!</figcaption></figure>
+      <figure class="poster p3 big"><img src="img/food/fritas.jpg" alt="Fritas com queijo e cebolinha" loading="lazy" width="900" height="1200"><figcaption class="tag">chegou roubando a cena</figcaption></figure>
+      <figure class="poster p4"><img src="img/food/cebola.jpg" alt="Burger duplo com cebola caramelizada" loading="lazy" width="900" height="1200"><figcaption class="tag">qual é a sua?</figcaption></figure>
+      <figure class="poster p1"><img src="img/food/sobremesa.jpg" alt="Sobremesa com sorvete e morango" loading="lazy" width="900" height="1200"><figcaption class="tag">uma maravilha dessa hoje hein</figcaption></figure>
+      <figure class="poster p2 big"><img src="img/food/bacon.jpg" alt="Burger com bacon e salada" loading="lazy" width="900" height="1200"><figcaption class="tag">pra essa sexta!</figcaption></figure>
+      <figure class="poster p3"><img src="img/food/shake.jpg" alt="Milk shake com calda" loading="lazy" width="900" height="1200"><figcaption class="tag">que duplinha heiiiin</figcaption></figure>
+      <figure class="poster p4"><img src="img/food/brownie.jpg" alt="Fatia de bolo de chocolate com sorvete" loading="lazy" width="900" height="1200"><figcaption class="tag">combina demais</figcaption></figure>
+      <figure class="poster p1"><img src="img/food/salada.jpg" alt="Salada com tomate e queijo" loading="lazy" width="1200" height="1200"><figcaption class="tag">pra manter a dieta</figcaption></figure>
+      <div class="wall-end">
+        <img src="img/logo.png" alt="" loading="lazy" width="1057" height="844">
+        <button type="button" class="btn btn-fire" data-order>Bateu a fome? Pede aí</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DESTAQUES (sticky scrolly) ===== -->
+<section class="stars" data-hd="dark" aria-label="Destaques da casa">
+  <div class="stars-media" aria-hidden="true">
+    <div class="stars-frame">
+      <img src="img/food/pansexy-close.jpg" alt="" class="is-on" data-star="0" width="900" height="1200">
+      <img src="img/food/chicken.jpg" alt="" data-star="1" loading="lazy" width="900" height="1200">
+      <img src="img/food/cebola.jpg" alt="" data-star="2" loading="lazy" width="900" height="1200">
+      <span class="stars-price mono" data-star-price>R$ 45,90</span>
+    </div>
+    <ol class="stars-dots"><li class="is-on"></li><li></li><li></li></ol>
+  </div>
+  <div class="stars-copy">
+    <article class="star" data-i="0" data-price="R$ 45,90">
+      <p class="mono kicker">№02 · o queridinho</p>
+      <h2 class="h-xl">Pansexy</h2>
+      <p class="tag big">pra muitos esse é o melhor burger do mundo!</p>
+      <p class="lead">Aqui somos suspeitos em dizer 👀</p>
+      <ul class="chips"><li>hambúrguer bovino</li><li>queijo</li><li>pancetta picante</li><li>maionese de wasabi</li><li>salada verde com toque oriental</li><li>pão da casa</li></ul>
+    </article>
+    <article class="star" data-i="1" data-price="R$ 39,90">
+      <p class="mono kicker">№03 · crocante</p>
+      <h2 class="h-xl">Chicken smart</h2>
+      <p class="lead">Sanduíche de frango empanado, alface americana com molho Original e catupiry.</p>
+      <ul class="chips"><li>frango empanado</li><li>alface americana</li><li>molho original</li><li>catupiry</li></ul>
+    </article>
+    <article class="star" data-i="2" data-price="R$ 44,90">
+      <p class="mono kicker">№04 · o mais vendido</p>
+      <h2 class="h-xl">Smash urban</h2>
+      <p class="tag big">nosso burger mais vendido</p>
+      <ul class="chips"><li>2 burgers de 80g</li><li>bacon</li><li>picles</li><li>american cheese</li><li>cebola caramelizada</li><li>pão da casa</li></ul>
+      <button type="button" class="btn btn-fire" data-order>Quero esse</button>
+    </article>
+  </div>
+</section>
+
+<!-- ===== CARDÁPIO ===== -->
+<section class="menu" id="cardapio" data-hd="dark">
+  <div class="menu-head">
+    <p class="mono kicker">№05 · cardápio</p>
+    <h2 class="h-xl">O que tem<br>na <em class="hl">chapa</em></h2>
+  </div>
+  <div class="menu-board">
+    <div class="menu-tabs" role="tablist" aria-label="Categorias do cardápio">
+      <button role="tab" aria-selected="true" data-tab="burgers">Burgers</button>
+      <button role="tab" aria-selected="false" data-tab="combos">Combos</button>
+      <button role="tab" aria-selected="false" data-tab="entradas">Entradas</button>
+      <button role="tab" aria-selected="false" data-tab="doces">Doces</button>
+    </div>
+    <div class="menu-list" data-menu role="tabpanel"></div>
+    <div class="menu-foot">
+      <p class="small">Preços do delivery da unidade Osasco no Anota Aí. Tem também milk shakes de 500 ml, refri e água.</p>
+      <button type="button" class="btn btn-fire" data-order>Pedir no delivery</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FRITAS FREE ===== -->
+<section class="free" data-hd="light">
+  <div class="free-copy">
+    <p class="mono kicker">№06 · quinta a domingo</p>
+    <h2 class="free-title"><span>Fritas</span><span class="free-big">free</span><span>no almoço</span></h2>
+    <p class="lead">Você tá ligado que de quinta a domingo no almoço a fritas acompanha é na faixa consumindo aqui no salão? 🤔🧡</p>
+    <p class="tag">agora não tem nem desculpinha que te impeça de colar, certo?</p>
+    <a href="#unidades" class="btn btn-dark">Ver endereços</a>
+  </div>
+  <div class="free-media">
+    <figure class="reel" data-reel>
+      <video src="video/fritas.mp4" poster="img/fritas-poster.jpg" playsinline preload="none" loop></video>
+      <button type="button" class="reel-play" aria-label="Assistir vídeo com som"><span>▶</span> com som</button>
+    </figure>
+    <span class="free-stamp mono">*válido no almoço,<br>consumo no salão</span>
+  </div>
+</section>
+
+<!-- ===== BASTIDORES ===== -->
+<section class="crew" id="bastidores" data-hd="dark">
+  <div class="crew-head">
+    <p class="mono kicker">№07 · bastidores</p>
+    <h2 class="h-xl">A Smart é construída<br>de <em class="hl">muita gente.</em></h2>
+    <p class="lead">Funcionários, clientes e amigos 🧡🍔 Um pouquinho dos nossos bastidores.</p>
+  </div>
+
+  <div class="crew-grid">
+    <figure class="reel reel-big" data-reel>
+      <video src="video/tour.mp4" poster="img/tour-poster.jpg" playsinline preload="none"></video>
+      <button type="button" class="reel-play" aria-label="Assistir o tour com som"><span>▶</span> o tour</button>
+      <figcaption class="mono">O que você não sabia sobre a Smartburger</figcaption>
+    </figure>
+    <figure class="shot s1"><img src="img/bastidores/b1.jpg" alt="Cozinheiro na chapa com bacon em primeiro plano" loading="lazy" width="825" height="1100"></figure>
+    <figure class="shot s2"><img src="img/bastidores/b4.jpg" alt="Burger sendo prensado na chapa" loading="lazy" width="825" height="1100"></figure>
+    <figure class="reel" data-reel>
+      <video src="video/representa.mp4" poster="img/representa-poster.jpg" playsinline preload="none"></video>
+      <button type="button" class="reel-play" aria-label="Assistir vídeo com som"><span>▶</span> com som</button>
+      <figcaption class="mono">O que a Smart representa pra você?</figcaption>
+    </figure>
+    <figure class="shot s3"><img src="img/bastidores/b2.jpg" alt="Montagem dos burgers na cozinha" loading="lazy" width="825" height="1100"></figure>
+    <figure class="shot s4"><img src="img/bastidores/b5.jpg" alt="Garrafas de 500 ml com rótulo grafitado" loading="lazy" width="825" height="1100"></figure>
+  </div>
+
+  <div class="crew-loop" aria-hidden="true">
+    <video src="video/loop-sinuca.mp4" muted loop playsinline preload="none" data-lazy-loop></video>
+    <p class="neon neon-big">Making good burger since 2011</p>
+  </div>
+  <p class="crew-ask tag">Há quanto tempo você vem na Smart? Conta pra gente</p>
+</section>
+
+<!-- ===== UNIDADES ===== -->
+<section class="units" id="unidades" data-hd="dark">
+  <div class="units-head">
+    <p class="mono kicker">№08 · cola aqui</p>
+    <h2 class="h-xl">Duas casas,<br><em class="hl">quatro deliverys.</em></h2>
+  </div>
+
+  <div class="units-grid">
+    <article class="unit">
+      <p class="unit-n">01</p>
+      <h3>Osasco</h3>
+      <p class="unit-addr">Av. Santo Antônio, 1.388<br>Vila Osasco · Osasco/SP</p>
+      <div class="unit-cta">
+        <a class="btn btn-fire" href="https://www.google.com/maps/search/?api=1&query=Smart+Burger+Av.+Santo+Ant%C3%B4nio+1388+Osasco" target="_blank" rel="noopener">Como chegar ↗</a>
+        <a class="btn btn-ghost" href="https://pedido.anota.ai/loja/smart-burger-1?f=msa" target="_blank" rel="noopener">Delivery ↗</a>
+      </div>
+    </article>
+    <article class="unit">
+      <p class="unit-n">02</p>
+      <h3>Carapicuíba</h3>
+      <p class="unit-addr">R. Padre Arnaldo, 95<br>Vila Silviania · Carapicuíba/SP</p>
+      <div class="unit-cta">
+        <a class="btn btn-fire" href="https://www.google.com/maps/search/?api=1&query=Smart+Burger+R.+Padre+Arnaldo+95+Carapicu%C3%ADba" target="_blank" rel="noopener">Como chegar ↗</a>
+        <a class="btn btn-ghost" href="https://pedido.anota.ai/loja/smart-burger-carapicuba?f=ms" target="_blank" rel="noopener">Delivery ↗</a>
+      </div>
+    </article>
+    <article class="unit unit-hours">
+      <p class="mono kicker">horários · Osasco</p>
+      <table class="hours">
+        <tr data-d="2,3,4,0"><th>Ter a qui e dom</th><td>11h30 às 16h<br>18h às 22h45</td></tr>
+        <tr data-d="5"><th>Sexta</th><td>11h30 às 16h<br>18h às 23h45</td></tr>
+        <tr data-d="6"><th>Sábado</th><td>11h30 às 23h45</td></tr>
+        <tr data-d="1"><th>Segunda</th><td>Fechado</td></tr>
+      </table>
+      <p class="open-now mono" data-open-now></p>
+    </article>
+  </div>
+
+  <div class="delivery">
+    <p class="mono kicker">delivery</p>
+    <div class="delivery-row">
+      <a href="https://pedido.anota.ai/loja/smart-burger-1?f=msa" target="_blank" rel="noopener"><span>Osasco</span><i>Anota Aí ↗</i></a>
+      <a href="https://pedido.anota.ai/loja/smart-burger-carapicuba?f=ms" target="_blank" rel="noopener"><span>Carapicuíba</span><i>Anota Aí ↗</i></a>
+      <a href="https://pedido.anota.ai/loja/smart-burger-carapicuba-1" target="_blank" rel="noopener"><span>Alphaville</span><i>Anota Aí ↗</i></a>
+      <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/smart-burger-sao-francisco-vila-lageado/b0989268-efe1-44e3-9136-d5f7a6bb739b" target="_blank" rel="noopener"><span>São Francisco</span><i>iFood ↗</i></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ftr">
+  <p class="neon ftr-neon">Making good burger since 2011</p>
+  <div class="ftr-row">
+    <img src="img/logo.png" alt="Smart Burger" class="ftr-logo" loading="lazy" width="1057" height="844">
+    <p>© 2011–2026 Smart Burger · <a href="https://www.instagram.com/smartburgeroficial/" target="_blank" rel="noopener">@smartburgeroficial</a></p>
+    <a href="#top" class="ftr-top mono">topo ↑</a>
+  </div>
+</footer>
+
+<!-- ===== PEDIDO: escolhe a unidade ===== -->
+<div class="order" role="dialog" aria-modal="true" aria-labelledby="order-t" hidden>
+  <div class="order-back" data-close></div>
+  <div class="order-card">
+    <button type="button" class="order-x" data-close aria-label="Fechar">×</button>
+    <p class="mono kicker">delivery</p>
+    <h2 id="order-t" class="h-lg">De onde você<br>vai pedir?</h2>
+    <div class="order-list">
+      <a href="https://pedido.anota.ai/loja/smart-burger-1?f=msa" target="_blank" rel="noopener"><b>Osasco</b><span>Anota Aí</span><i>→</i></a>
+      <a href="https://pedido.anota.ai/loja/smart-burger-carapicuba?f=ms" target="_blank" rel="noopener"><b>Carapicuíba</b><span>Anota Aí</span><i>→</i></a>
+      <a href="https://pedido.anota.ai/loja/smart-burger-carapicuba-1" target="_blank" rel="noopener"><b>Alphaville</b><span>Anota Aí</span><i>→</i></a>
+      <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/smart-burger-sao-francisco-vila-lageado/b0989268-efe1-44e3-9136-d5f7a6bb739b" target="_blank" rel="noopener"><b>São Francisco</b><span>iFood</span><i>→</i></a>
+    </div>
+  </div>
+</div>
+
+<script src="main.js?v=1" defer></script>
+</body>
+</html>
